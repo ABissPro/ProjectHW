@@ -21,27 +21,29 @@
 
 
 
-`import java.util.Scanner;
+```import java.util.Scanner;
 
 public class Scan1 {
 
 	public static void main(String[] args) {
 			System.out.print("Введите ваш диметр, см");
 			Scanner d = new Scanner (System.in);
-			float diametr = d.nextFloat () ;
-			float diametrt = d.nextFloat () ;
+			float diametr = d.nextFloat ();
+			float diametrt = d.nextFloat ();
 			float dd = 2;
 			float s = (float) Math.pow(diametr, dd);
 			float st = (float) Math.pow(diametrt, dd);
-			float g = (float) ((3.14*s)/4) ;
-			float gt = (float) ((3.14*st)/4) ;
+			float g = (float) ((3.14*s)/4);
+			float gt = (float) ((3.14*st)/4);
 			System.out.println ("Площадь сечения на уровне груди равна " + g + ("см"));
 			System.out.println ("Площадь сечения на уровне груди равна " + gt + ("см"));
 			
 
 	}
 
-}` Для кода
+}``` 
+
+Для кода
 
  ___
 ошибка
