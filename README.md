@@ -18,10 +18,31 @@
  * Строка текста +2Enter;  TAB
  
     Еще одна строка текста под ней после пустой
-* ```int fing = 8;``` Для кода
--
-    -
-***
+
+
+
+`import java.util.Scanner;
+
+public class Scan1 {
+
+	public static void main(String[] args) {
+			System.out.print("Введите ваш диметр, см");
+			Scanner d = new Scanner (System.in);
+			float diametr = d.nextFloat () ;
+			float diametrt = d.nextFloat () ;
+			float dd = 2;
+			float s = (float) Math.pow(diametr, dd);
+			float st = (float) Math.pow(diametrt, dd);
+			float g = (float) ((3.14*s)/4) ;
+			float gt = (float) ((3.14*st)/4) ;
+			System.out.println ("Площадь сечения на уровне груди равна " + g + ("см"));
+			System.out.println ("Площадь сечения на уровне груди равна " + gt + ("см"));
+			
+
+	}
+
+}` Для кода
+
  ___
 ошибка
 
